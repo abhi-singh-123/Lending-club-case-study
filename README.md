@@ -17,24 +17,26 @@ The dataset is based in information gathered in clients that were granted a loan
 #### 3. Analysis
       As part of analysis, univariate, segmented univariate and bivariate analysis was done. Following are the observations made:--
       
-      # Summary and Insights
+#### Summary and Insights
 
-#### Univariate Analysis
+   #### Univariate Analysis
 
-This was done majorly to understand the general distriution 
+      This was done majorly to understand the general distriution for each labels/columns separately.
 
-      - A total of ~13.6% customers in total are defaulters
-      - 73% customers went for shorter term loan of 36months term while 27% went for 60 months term loan
-      - Interest rate is more densed between 10-15%
-      - 10+ years experienced people are more in number who needs loan
-      - Majority of borrowers don't have their own house
-      - Majority of borrowers are not verified
-      - Majority of borrowers income is less than 70k
-      - Most of the borrowers didn't have public bankruptcies record
-      - Most loans were issued in Q4
-      - Most of the loans were taken with the purpose of "Debt Consolidation"
+            - A total of ~13.6% customers in total are defaulters
+            - 73% customers went for shorter term loan of 36months term while 27% went for 60 months term loan
+            - Interest rate is more densed between 10-15%
+            - 10+ years experienced people are more in number who needs loan
+            - Majority of borrowers don't have their own house
+            - Majority of borrowers are not verified
+            - Majority of borrowers income is less than 70k
+            - Most of the borrowers didn't have public bankruptcies record
+            - Most loans were issued in Q4
+            - Most of the loans were taken with the purpose of "Debt Consolidation"
 
-#### Segmented Univariate Analysis
+   #### Segmented Univariate Analysis
+   
+      This was done to draw inference based on one vaiable when segmented.
       
       - The chances to default for 60 months term loan is higher compared to 36 months loan.
       - People with lower salary is more likely to default. Trend shows people with salary between 40k-70k has around 15% chance to default while the one in higher income group of 70k-85k has 11% chance
@@ -44,11 +46,13 @@ This was done majorly to understand the general distriution
       - Trend shows people with unverified income source are more likely to default.
       - Loan grade 'G' loans has 50% chance of defaulting while Loan Grade 'A' loans has just 5%
       - Higher dti means higher risk to default. dti with value 20-30 has more 16% risk to default¶
-      - If the enquiry in last 6 months is higher than 2 is more likely to default
+      - If the enquiry in last 6 months if higher than 2 is more likely to default
       - Loans issued in May, June and october interestingly has higher defaulters
 
 #### Bivariate Analysis
 
+      This was done to draw inference based on 2 variables/features taken into account together.
+      
       - Funded amount was higher for people who defaulted in every income group
       - Higher DTI and funded amount greater than 10k led to more defaulters
       - 4-7 inquiries in last 6 months and higher loan/funded amount(> 12k) leading to more defaulters
