@@ -20,6 +20,9 @@ The dataset is based in information gathered in clients that were granted a loan
       # Summary and Insights
 
 #### Univariate Analysis
+
+This was done majorly to understand the general distriution 
+
       - A total of ~13.6% customers in total are defaulters
       - 73% customers went for shorter term loan of 36months term while 27% went for 60 months term loan
       - Interest rate is more densed between 10-15%
@@ -29,9 +32,10 @@ The dataset is based in information gathered in clients that were granted a loan
       - Majority of borrowers income is less than 70k
       - Most of the borrowers didn't have public bankruptcies record
       - Most loans were issued in Q4
+      - Most of the loans were taken with the purpose of "Debt Consolidation"
 
 #### Segmented Univariate Analysis
-      - Most of the loans were taken with the purpose of "Debt Consolidation"
+      
       - The chances to default for 60 months term loan is higher compared to 36 months loan.
       - People with lower salary is more likely to default. Trend shows people with salary between 40k-70k has around 15% chance to default while the one in higher income group of 70k-85k has 11% chance
       - 10+ years experience people fully paid the loan on time.
