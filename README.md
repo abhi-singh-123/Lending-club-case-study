@@ -73,6 +73,7 @@ The dataset is based in information gathered in clients that were granted a loan
 - Annual income
 - DTI
 - Employment length
+- addr_state
 
 #### Model
 - This is a classic case of logistic regression. It's a binary classification problem, A model can be developed using a sigmoid function to predict the probability. A probability > 0.5 can be predicted as defaulter while probabilty < 0.5 can be predicted as non-defaulter.
